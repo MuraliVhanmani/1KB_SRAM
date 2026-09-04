@@ -10,7 +10,7 @@
 module memory(clk_i,reset_i,valid_i,addr_i,wdata_i,wr_rd_i,ready_o,rdata_o);
 
 parameter WIDTH=16;
-parameter DEPTH=16;
+parameter DEPTH=64;
 parameter ADDR_WIDTH=$clog2(DEPTH);
 
 input wire clk_i;
